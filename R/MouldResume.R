@@ -247,7 +247,7 @@ MouldResume_update_preview <- function(token,file_name) {
                                            "text", "text", "text", "numeric",
                                            "text", "text", "numeric", "text",
                                            "text", "numeric", "numeric", "text",
-                                           "text", "numeric", "text"))
+                                           "text", "text", "text"))
 
 
 
@@ -276,7 +276,7 @@ MouldResume_update_upload <- function(dms_token,file_name) {
   # data <- readxl::read_excel(file_name)
 
    data <- readxl::read_excel(file_name,col_types = c("text", "text", "text", "text", "text", "text", "numeric",
- "text", "text", "numeric", "text","text", "numeric", "numeric", "text","text", "numeric", "text"))
+ "text", "text", "numeric", "text","text", "numeric", "numeric", "text","text", "text", "text"))
 
 
 

@@ -2,8 +2,10 @@
 % Please edit documentation in R/MouldResume.R
 \name{MouldResume_preview}
 \alias{MouldResume_preview}
-\title{模板履历表预览}
+\title{模具表预览}
 \usage{
+MouldResume_preview(token, file_name)
+
 MouldResume_preview(token, file_name)
 }
 \arguments{
@@ -11,10 +13,15 @@ MouldResume_preview(token, file_name)
 }
 \value{
 
+
+
 }
 \description{
-模板履历表预览
+模具表预览
+
+模具表预览
 }
 \examples{
+MouldResume_preview()
 MouldResume_preview()
 }

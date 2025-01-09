@@ -2,7 +2,7 @@
 % Please edit documentation in R/MouldResume.R
 \name{MouldResume_upload}
 \alias{MouldResume_upload}
-\title{模板履历表上传}
+\title{模具信息表上传}
 \usage{
 MouldResume_upload(token, file_name)
 }
@@ -13,7 +13,7 @@ MouldResume_upload(token, file_name)
 
 }
 \description{
-模板履历表上传
+模具信息表上传
 }
 \examples{
 MouldResume_upload(token,file_name)
